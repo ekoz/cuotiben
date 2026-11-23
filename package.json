@@ -1,0 +1,21 @@
+{
+  "name": "correction-notebook",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "个人纠错本：语文、数学、英语错题积累",
+  "engines": {
+    "node": ">=24",
+    "npm": ">=11"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "katex": "^0.19.1",
+    "markdown-it-texmath": "^1.0.0",
+    "vitepress": "^1.6.4"
+  }
+}
