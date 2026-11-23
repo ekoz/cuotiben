@@ -92,6 +92,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: '个人纠错本',
   description: '语文、数学、英语错题积累',
+  base: process.env.VITEPRESS_BASE || '/',
   srcDir: 'notes',
   srcExclude: ['_templates/**'],
   themeConfig: {
