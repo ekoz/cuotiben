@@ -1,0 +1,168 @@
+{
+  "created_at": "2026-11-20T09:14:09.378Z",
+  "entries": [
+    {
+      "actor": {
+        "user_name": "eko.zhan",
+        "user_name_source": "git_config_local_user_name"
+      },
+      "artifacts": [
+        "docs/specs/active/v1-site-skeleton/spec.md",
+        "docs/specs/active/v1-site-skeleton/tasks.md"
+      ],
+      "attempt": 1,
+      "checkpoint": {
+        "base_commit": null,
+        "code_resolution": "unavailable",
+        "head_commit": null,
+        "working_tree_dirty": true
+      },
+      "command": "propose",
+      "end_reason": "workflow_completed",
+      "ended_at": "2026-11-20T09:39:38.372Z",
+      "entry_id": "entry-e095a5f79d41566f",
+      "helixharness_version": "1.0.0",
+      "platform": "claude-code",
+      "quality": {},
+      "session_hash": "session-fed88b8361ed47a237a8b3bc4ddfdb7c",
+      "stage_kind": "requirement",
+      "started_at": "2026-11-20T09:14:09.378Z",
+      "status": "completed",
+      "trigger": "user_command"
+    },
+    {
+      "actor": {
+        "user_name": "eko.zhan",
+        "user_name_source": "git_config_local_user_name"
+      },
+      "artifacts": [],
+      "attempt": 1,
+      "checkpoint": {
+        "base_commit": null,
+        "code_resolution": "unavailable",
+        "head_commit": null,
+        "working_tree_dirty": true
+      },
+      "command": "apply",
+      "end_reason": "stage_restarted",
+      "ended_at": "2026-11-23T01:35:53.508Z",
+      "entry_id": "entry-d07910ef89f7bf36",
+      "helixharness_version": "1.0.0",
+      "platform": "claude-code",
+      "quality": {},
+      "session_hash": "session-fed88b8361ed47a237a8b3bc4ddfdb7c",
+      "stage_kind": "coding",
+      "started_at": "2026-11-20T09:42:11.110Z",
+      "status": "partial",
+      "trigger": "user_command"
+    },
+    {
+      "actor": {
+        "user_name": "eko.zhan",
+        "user_name_source": "git_config_local_user_name"
+      },
+      "artifacts": [
+        "docs/specs/active/v1-site-skeleton/verify-report.md"
+      ],
+      "attempt": 2,
+      "checkpoint": {
+        "base_commit": null,
+        "code_resolution": "unavailable",
+        "head_commit": null,
+        "working_tree_dirty": true
+      },
+      "command": "apply",
+      "end_reason": "workflow_completed",
+      "ended_at": "2026-11-23T02:03:36.948Z",
+      "entry_id": "entry-3af034a06ab5027f",
+      "helixharness_version": "1.0.0",
+      "platform": "claude-code",
+      "quality": {
+        "must_fix_rounds": 1,
+        "spec_verdict": "APPROVE",
+        "standards_verdict": "APPROVE",
+        "verification": "passed"
+      },
+      "session_hash": "session-fed88b8361ed47a237a8b3bc4ddfdb7c",
+      "stage_kind": "coding",
+      "started_at": "2026-11-23T01:35:54.014Z",
+      "status": "completed",
+      "trigger": "user_command"
+    },
+    {
+      "actor": {
+        "user_name": "eko.zhan",
+        "user_name_source": "git_config_local_user_name"
+      },
+      "artifacts": [
+        "docs/specs/active/v1-site-skeleton/verify-report.md"
+      ],
+      "attempt": 3,
+      "checkpoint": {
+        "base_commit": null,
+        "code_resolution": "unavailable",
+        "head_commit": null,
+        "working_tree_dirty": true
+      },
+      "command": "apply",
+      "end_reason": "workflow_completed",
+      "ended_at": "2026-11-23T05:14:36.715Z",
+      "entry_id": "entry-64d33db52d2a586e",
+      "helixharness_version": "1.0.0",
+      "platform": "claude-code",
+      "quality": {
+        "must_fix_rounds": 2,
+        "spec_verdict": "APPROVE",
+        "standards_verdict": "APPROVE",
+        "verification": "passed"
+      },
+      "session_hash": "session-fed88b8361ed47a237a8b3bc4ddfdb7c",
+      "stage_kind": "coding",
+      "started_at": "2026-11-23T05:00:54.244Z",
+      "status": "completed",
+      "trigger": "bug-fix"
+    },
+    {
+      "actor": {
+        "user_name": "eko.zhan",
+        "user_name_source": "git_config_local_user_name"
+      },
+      "artifacts": [
+        "docs/specs/completed/v1-site-skeleton/spec.md",
+        "docs/specs/completed/v1-site-skeleton/tasks.md",
+        "docs/specs/completed/v1-site-skeleton/verify-report.md"
+      ],
+      "attempt": 1,
+      "checkpoint": {
+        "base_commit": null,
+        "code_resolution": "unavailable",
+        "head_commit": "0b81a3bcd11ae198f785c7bffc913bda81b7d547",
+        "working_tree_dirty": true
+      },
+      "command": "archive",
+      "end_reason": "workflow_completed",
+      "ended_at": "2026-11-23T05:16:30.448Z",
+      "entry_id": "entry-9af7c96700885be6",
+      "helixharness_version": "1.0.0",
+      "platform": "claude-code",
+      "quality": {},
+      "session_hash": "session-fed88b8361ed47a237a8b3bc4ddfdb7c",
+      "stage_kind": "archive",
+      "started_at": "2026-11-23T05:14:37.561Z",
+      "status": "completed",
+      "trigger": "bug-fix"
+    }
+  ],
+  "feature": "v1-site-skeleton",
+  "last_updated": "2026-11-23T05:16:30.448Z",
+  "project": {
+    "name": "correction-notebook"
+  },
+  "requirement": {
+    "id": "req_673a001ebddfe627334de94b",
+    "name": "v1-site-skeleton"
+  },
+  "schema": "helixharness-eval-ledger/1.0",
+  "schema_version": "1.0",
+  "status": "archived"
+}
