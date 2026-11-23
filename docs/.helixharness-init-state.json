@@ -1,0 +1,14 @@
+{
+  "projectType": "empty",
+  "detectionLevel": "fast",
+  "confidence": 1.0,
+  "techStack": {
+    "hasBackend": false,
+    "hasFrontend": false
+  },
+  "scanPlan": [],
+  "userConfirmed": false,
+  "scanStatus": "skipped",
+  "bootstrapStatus": "completed",
+  "completedAt": 1795165046
+}

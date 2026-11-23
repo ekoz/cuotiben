@@ -1,0 +1,16 @@
+# 依赖与构建产物
+node_modules/
+.vitepress/dist/
+.vitepress/cache/
+npm-debug.log*
+
+# 本地环境与编辑器
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# HelixHarness 数据统计：保留需求级 eval 记录（不忽略）
+!docs/eval/
+!docs/eval/**
+/.helixharness/
